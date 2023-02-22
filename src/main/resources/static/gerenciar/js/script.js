@@ -18,7 +18,7 @@ function listar() {
         texto = "";
         i = 0;
         for (const u of lista) {
-            texto += `<tr onclick='editar(${i})'><td>${u.nome}</td><td>R$ ${u.valor.toFixed(2)}</td></tr>`;
+            texto += `<tr onclick='editar(${i})'><td>${u.nome}</td><td>R$ ${u.valor.toFixed(3)}</td></tr>`;
             i++;
         }
         document.getElementById('lista').innerHTML = texto;

@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-// http://localhost:8080/api/usuario/add?nome=isaque&email=isaquelevi@gmail.com -- nesse exemplo são usadas váriaveis de parametro chave=valor
+// http://localhost:8080/api/usuario/add?nome=luiz&email=luiz@gmail.com -- nesse exemplo são usadas váriaveis de parametro chave=valor
 
 @Controller
 @RequestMapping(path = "/api/usuario")
